@@ -25,7 +25,7 @@ $result = $conexion->query($sql);
 if ($result->num_rows == 1) {
     $row = $result->fetch_assoc();
     if (password_verify($pwd, $row['pwd'])) {
-        $_SESSION['id'] = $row;
+        $_SESSION['id'] = $row['id'];
         header("Location: index.php");
         echo "Se ha iniciado sesión exitosamente";
     } else {

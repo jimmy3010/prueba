@@ -1,0 +1,22 @@
+.tarjeta {
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    padding-top: 6px;
+}
+.boton {
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 0.1px solid black;
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.boton:hover {
+    scale: 0.98;
+}
